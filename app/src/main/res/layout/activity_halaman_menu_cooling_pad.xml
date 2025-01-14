@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halamanMenuCoolingPad">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <!-- Header -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingBottom="16dp"
+                android:layout_marginTop="70dp">
+
+                <!-- Back Button -->
+                <ImageView
+                    android:id="@+id/imageBack"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/back"
+                    android:contentDescription="Back button"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp" />
+
+                <!-- Title -->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cooling Pad"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <!-- Kategori Item 1 -->
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="116dp"
+                    android:layout_height="131dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nyk"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="7dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NYK X4 Storm Breaker"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/c1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show"
+                        android:textColor="#007AFF"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Kategori Item 2 -->
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="116dp"
+                    android:layout_height="131dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/jertech"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="7dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JERTECH  KL-330"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/c2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show"
+                        android:textColor="#007AFF"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!-- Kategori Item 3 -->
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background"
+                android:padding="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="116dp"
+                    android:layout_height="131dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/orico"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="7dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ORICO-NA15-SV"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/c3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show"
+                        android:textColor="#007AFF"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--            item ke 4 -->
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="116dp"
+                    android:layout_height="131dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rexusbreeze"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="7dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rexus Breeze B150"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/c4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show"
+                        android:textColor="#007AFF"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--            item 5-->
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="116dp"
+                    android:layout_height="131dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fantech"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="7dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Fantech Cooler NC20"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/c5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show"
+                        android:textColor="#007AFF"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--            item 6          -->
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="116dp"
+                    android:layout_height="131dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/coretech"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="7dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Coretech Penta-Fan"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/c6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show"
+                        android:textColor="#007AFF"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halamanRegister">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome"
+            android:adjustViewBounds="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIG UP"
+            android:textSize="40sp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Name "
+            android:layout_marginLeft="28dp"
+            />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="333dp"
+            android:layout_height="50dp"
+            android:background="@drawable/border_linear_layout"
+            android:ems="10"
+            android:hint="Phone/Email"
+
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Addres "
+            android:layout_marginLeft="28dp"
+            />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="333dp"
+            android:layout_height="50dp"
+            android:background="@drawable/border_linear_layout"
+            android:ems="10"
+            android:hint="Phone/Email"
+
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password "
+            android:layout_marginLeft="28dp"
+            />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="333dp"
+            android:layout_height="50dp"
+            android:background="@drawable/border_linear_layout"
+            android:ems="10"
+            android:hint="Phone/Email"
+
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Email Addres "
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <EditText
+            android:layout_width="333dp"
+            android:layout_height="50dp"
+
+            android:background="@drawable/border_linear_layout"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="333dp"
+            android:layout_height="48dp"
+            android:text="REGISTER"
+            android:backgroundTint="#1A1A2E"
+            android:layout_marginStart="110dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginTop="25dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already Have an Account?"/>
+
+            <TextView
+                android:id="@+id/klikLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textColor="#3B82F6"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

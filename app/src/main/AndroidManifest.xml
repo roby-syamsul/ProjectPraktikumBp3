@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectBp3"
+        tools:targetApi="31">
+        <activity
+            android:name=".halamanDetailCoretechPentaFanCoolingPad"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailFantechCoolerNC20"
+            android:exported="true" />
+        <activity
+            android:name=".halamaDetailRexusBreezeB150"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailORICONA15SV"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailJERTECHKL330"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailNYKX4StormBreaker"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailLaCieRugged"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailADATAHD770G"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailTranscend25M3"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailToshibaCanvio"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailWDNewMyPassport"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailSeagateNewExpansion"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailLogitechG733"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailRexusVonixF30"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailAcerNitroGamingHeadset"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailAcerPredatorGalea350"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailLogitechG333"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailGamenGH100"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailRexusQ20"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailrRexusx16"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailRexusg10"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailRexusMX9"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailMK220"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDetailLogitechk120"
+            android:exported="true" />
+        <activity
+            android:name=".halamanMenuCoolingPad"
+            android:exported="true" />
+        <activity
+            android:name=".halamanMenuStorageEkternal"
+            android:exported="true" />
+        <activity
+            android:name=".halamanHedseatSpeker"
+            android:exported="true" />
+        <activity
+            android:name=".halamanMenuMouse"
+            android:exported="true" />
+        <activity
+            android:name=".halamanDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".halamanRegister"
+            android:exported="true" />
+        <activity
+            android:name=".halamanLogin"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

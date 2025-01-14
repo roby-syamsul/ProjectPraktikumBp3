@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halamanDashboard">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="60dp">
+
+                <ImageView
+                    android:id="@+id/imageBack"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/back"
+                    android:layout_marginLeft="20dp"
+                    />
+
+
+            </LinearLayout>
+            <!-- Header dengan gambar -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mac"
+                android:layout_marginTop="20dp"
+                />
+
+            <!-- Text "Shop by Category" -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shop by Category"
+                android:layout_marginLeft="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Kategori Item 1 -->
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kdm"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="7dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Keyboard Dan Mouse"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/kategori1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show"
+                        android:textColor="#007AFF"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Kategori Item 2 -->
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="42dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hds"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="7dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Headset dan Speaker"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/kategori2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show"
+                        android:textColor="#007AFF"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Tambahkan kategori lain seperti contoh di atas -->
+            <!-- Kategori Item 3 -->
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background"
+                android:padding="8dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pk"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="7dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Storage Eksternal"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/kategori3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show"
+                        android:textColor="#007AFF"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+<!--            item ke 4 -->
+            <!-- Kategori Item 2 -->
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="42dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/cp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="7dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cooling Pad"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/kategori4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show"
+                        android:textColor="#007AFF"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halamanDetailTranscend25M3">
+
+       <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="70dp">
+
+        <!-- Back Button -->
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/back"
+            android:contentDescription="Back button"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Detail Product"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <!-- Product Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/transcend"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="8dp"
+        />
+
+    <!-- Product Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transcend 25M3"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"/>
+
+    <!-- Product Description -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transcend StoreJet 25M3 adalah hard drive eksternal portabel yang dirancang untuk memberikan perlindungan data yang andal dan kecepatan transfer tinggi. Dilengkapi dengan antarmuka USB 3.1 Gen 1, perangkat ini menawarkan kecepatan transfer data hingga 5Gbps, memudahkan pemindahan file berukuran besar.
+Salah satu fitur unggulannya adalah sistem perlindungan tiga tahap yang mencakup casing karet silikon, peredam kejut internal, dan casing keras yang diperkuat. Kombinasi ini telah lulus uji jatuh standar militer AS (MIL-STD-810G), memastikan data Anda tetap aman dari benturan atau jatuh yang tidak disengaja.
+StoreJet 25M3 juga dilengkapi dengan tombol 'One Touch Auto-Backup' yang memungkinkan Anda melakukan pencadangan data secara instan hanya dengan satu tekan, asalkan perangkat lunak Transcend Elite telah diinstal."
+        android:textColor="#666666"
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+
+
+</LinearLayout>
